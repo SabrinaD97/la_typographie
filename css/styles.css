@@ -23,6 +23,8 @@ body {
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
   color: #000;
+
+  background-color: #FFF;
 }
 
 
@@ -30,26 +32,30 @@ body {
 h1{
     font-size: 6rem;
     font-weight: 900;
-    letter-spacing: 30px;
+    letter-spacing: 34.6px;
     color: #FFF;
     text-align: center;
+
+    margin: 0;
+    padding: 0;
 }
 
 h2{
-    font-family: "Lato", sans-serif;
-    font-size: 3rem;
-    font-weight: 100;
-    line-height: 60px;
-    letter-spacing: 2.6px;
-    text-align: right;
-}
-
-h3{
     font-family: "Quicksand", sans-serif;
     font-optical-sizing: auto;
     font-size: 2.25rem;
     font-weight: 400;
     line-height: 60px;
+}
+
+p{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
 }
 
 /*----------------------------------------------------
@@ -65,4 +71,31 @@ COMPONENTS
 
 .header{
     background-color: #34495E;
+    padding-bottom: 44px;
+    padding-top: 44px;
+}
+
+/*SLOGAN*/
+
+.slogan{
+    padding-top: 56px;
+    padding-bottom: 63px;
+
+    text-align: right;
+}
+
+.slogan q{
+    font-family: "Lato", sans-serif;
+    font-size: 3rem;
+    font-weight: 100;
+    line-height: 60px;
+    letter-spacing: 2.6px;
+}
+
+.slogan p{
+    font-family: "Lato", sans-serif;
+    font-size: 3rem;
+    font-weight: 100;
+    line-height: 60px;
+    letter-spacing: 2.6px;
 }
