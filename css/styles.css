@@ -99,3 +99,49 @@ COMPONENTS
     line-height: 60px;
     letter-spacing: 2.6px;
 }
+
+/*RÈGLES*/
+
+.article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 66px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-top: 30px;
+}
+
+a .article{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+a .article:hover{
+    background-color: #BDC3C7;
+}
+
+.rond{
+    height: 210px;
+    width: 210px;
+    border: 5px solid #D35400;
+    border-radius: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 1.875rem;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 1.5px;
+
+    color: #D35400;
+    background-color: #FFF;
+}
+
+.gauche{
+    flex-direction: row-reverse;
+}
